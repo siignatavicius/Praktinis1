@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+    user-select: none;
+   }
+  
+  body {
+   
+    justify-content: center;
+  }
+  
+    header {
+      width: $page-wd ;
+      height: 40px;
+      background: $color-ic;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+        p {
+          margin-left: 115px;
+        }
+     
+        button {
+          background: #007bff;
+          color: white;
+          margin-right: 120px;
+          height: 30px;
+          width: 60px;
+          border-radius: 4px;
+          border-style: none;
+        }
+    }

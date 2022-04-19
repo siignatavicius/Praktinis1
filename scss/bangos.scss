@@ -1,0 +1,62 @@
+.bangos-1 {
+    width: $page-wd ;
+    height: 300px;
+    background: url(../images/bg-masthead.jpg);
+    background-size: cover;
+    background-position: bottom;
+    margin: auto;
+    
+    p {
+      width: 310px;
+      font-size: 1.1em;
+      color: white;
+      font-weight: 700;
+      padding: 20px;
+      text-align: center;
+  }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.icons-1 {
+  width: $page-wd;
+  height: 200px;
+  margin: auto;
+  background: $color-ic;
+
+  h2 {
+    font-size: 1em;
+ }
+
+  p {
+    width: 120px;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 10px;
+  }
+  i {
+    font-size: 2em;
+  }
+
+  section {
+    
+    height: 150px;
+    width: 200px;
+   
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+
+    i {
+      padding: 10px;
+      color: #3797fd;
+    }
+    
+    }
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  }
